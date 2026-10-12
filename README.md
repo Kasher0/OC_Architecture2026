@@ -37,8 +37,3 @@ Ran PowerShell CIM/WMI cmdlets to retrieve hardware specifications directly from
 
 ## What did not work the first time
 When checking disk space, `Get-Disk` returned total physical capacity rather than volume-level free space. I had to use `Get-Volume` to specifically query `SizeRemaining` for Drive C: to get the actual free space available for storing virtual machines.
-
-## Evidence
-- [evidence/cpu.txt](evidence/cpu.txt) — raw terminal output for CPU details
-- [evidence/memory.txt](evidence/memory.txt) — raw terminal output for RAM capacity, speed, and module count
-- [evidence/disk.txt](evidence/disk.txt) — raw terminal output for disk model, media type, and remaining free space
