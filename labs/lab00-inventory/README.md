@@ -22,3 +22,7 @@ At least one thing. What I saw, what it turned out to be, what I did about it.
 ## Evidence
 
 - [evidence/](evidence/) — one line per file on what it proves
+
+## Update
+
+The errors have been corrected in the subsequent screenshots
