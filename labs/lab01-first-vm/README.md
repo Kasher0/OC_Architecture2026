@@ -1,24 +1,14 @@
 # Lab 1 — Your first virtual machine
 
-Pair:                     Driver first half:
-Machine:
-Date:
+Pair: Arsen                     Driver first half: Kazhymurat
+Machine: laptop
+Date: 19.10.2026
 
 ## What I did
 
-Steps, with commands in code blocks. Not prose about the steps.
+I verified the file's existence, intentionally deleted it, and then restored it to its original state using a snapshot.
 
-```
-<command>
-<output, trimmed>
-```
-
-## Result
 
 ## What did not work the first time
 
-At least one thing. What I saw, what it turned out to be, what I did about it.
-
-## Evidence
-
-- [evidence/](evidence/) — one line per file on what it proves
+Everything worked on the first try, with no apparent errors during execution.
