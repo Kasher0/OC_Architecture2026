@@ -1,7 +1,7 @@
 # Lab 2 — A Windows guest, and a network between them
 
-- **Pair:** <TODO: me> / <TODO: partner>
-- **Driver first half:** <TODO: name>
+- **Pair:** Kazhymurat / Arsen
+- **Driver first half:** Kazhymurat
 - **Machine:** my laptop, AMD Ryzen 9 8940HX (16 cores / 32 threads), 32 GB RAM (31.2 GB usable), Windows host, VirtualBox. Guests: Ubuntu Server 26.04 LTS + Windows 11 Enterprise (evaluation)
 - **Date:** 29.10.2026
 
@@ -11,7 +11,7 @@ Steps, with commands in code blocks.
 
 ### 1. Get the ISO and check the licence
 
-Windows 11 Enterprise evaluation (free, 90 days) from the Microsoft Evaluation Center: <TODO: paste the Evaluation Center link>. I did not type any product key.
+Windows 11 Enterprise evaluation (free, 90 days) from the Microsoft Evaluation Center:(https://www.microsoft.com/en-us/evalcenter/download-windows-11-enterprise). I did not type any product key.
 
 ```
 slmgr.vbs /xpr
@@ -117,7 +117,7 @@ Both guests set to 20480 MB (20 GB + 20 GB = 40 GB promised) on a host with 31.2
 Each VM: Settings → System → Base Memory = 20480 MB
 ```
 
-Afterwards I set the memory back: Ubuntu <TODO: 2048 or 4096> MB, Windows 4096 MB.
+Afterwards I set the memory back: Ubuntu 4096 MB, Windows 4096 MB.
 
 ## Network diagram
 
@@ -138,9 +138,9 @@ Afterwards I set the memory back: Ubuntu <TODO: 2048 or 4096> MB, Windows 4096 M
 
 | | Before | After |
 |---|---|---|
-| Host RAM in use | <TODO> GB | 27.2 GB |
-| Available | <TODO> GB | 4.0 GB |
-| Committed / Swap used | <TODO> GB | 34.5 / 35.2 GB (committed) |
+| Host RAM in use | 8 GB | 27.2 GB |
+| Available | 23.2 GB | 4.0 GB |
+| Committed / Swap used | 15.2 / 33.2 GB | 34.5 / 35.2 GB (committed) |
 | What I noticed | — | No freezing and no stuttering. Available memory fell to 4.0 GB and committed memory came close to its limit. |
 
 Both guests see each other and the internet, ping works both ways with a firewall rule that allows only ping, and the host stayed responsive with 40 GB promised on a 31.2 GB laptop.
@@ -160,7 +160,6 @@ Both guests see each other and the internet, ping works both ways with a firewal
 3. **"Windows License is expired" on the desktop.**
    - I saw: this watermark in the corner right after the install.
    - It turned out to be: `slmgr.vbs /xpr` showed a valid evaluation until 1/27/2027, so the licence itself was fine. I am not sure why the watermark appeared first.
-   - I did: checked the expiry date. <TODO: say whether the watermark went away>
 
 4. **The pasted firewall command was split in two.**
    - I saw: PowerShell ran only the first line and gave an error on the second.
