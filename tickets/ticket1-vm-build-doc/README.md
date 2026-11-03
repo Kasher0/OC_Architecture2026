@@ -2,7 +2,7 @@
 
 ## 1. What was asked
 
-> <<ВСТАВЬ ТОЧНЫЙ ТЕКСТ ЗАПРОСА ИЗ ТИКЕТА, дословно, как цитату>>
+Test computer set up
 
 ## 2. What was actually needed
 
