@@ -101,15 +101,13 @@ Ubuntu could not ping Windows. First `ping` was "command not found" because the 
 
 | File | What it proves |
 |---|---|
-| [evidence/01-new-vm-wizard.png](evidence/01-new-vm-wizard.png) | The VirtualBox new-VM wizard with my choices for the Windows guest |
-| [evidence/02-disk-settings.png](evidence/02-disk-settings.png) | The disk size and that it is dynamically allocated |
-| [evidence/03-network-adapter.png](evidence/03-network-adapter.png) | A guest is on the NAT Network `NatNetwork`, not plain NAT |
+| [evidence/01-new-vm-wizard.png](evidence/01-new-vm-wizard.png.png) | The VirtualBox new-VM wizard with my choices for the Windows guest |
+| [evidence/02-disk-settings.png](evidence/02-disk-settings.png.png) | The disk size and that it is dynamically allocated |
+| [evidence/03-network-adapter.png](evidence/03-network-adapter.png.png) | A guest is on the NAT Network `NatNetwork`, not plain NAT |
 | [evidence/04-guest-uname.txt](evidence/04-guest-uname.txt) | `uname -a` and `lsb_release -a` inside the Ubuntu guest, with the command line |
-| [evidence/05-ping-between-guests.txt](evidence/05-ping-between-guests.txt) | Ubuntu → Windows, Windows → Ubuntu, and each guest → internet, 0% loss, unedited |
-| [evidence/06-snapshot-list.png](evidence/06-snapshot-list.png) | The snapshot list with my clean snapshots |
-| [evidence/07-ping-timeout-before-firewall.png](evidence/07-ping-timeout-before-firewall.png) | The real 100% packet loss before the firewall rule — the problem I solved |
-
-Step-by-step screenshots for BUILD.md are in [screenshots/](screenshots/).
+| [evidence/05-ping-between-guests.txt](evidence/05-ping-between-guests.txt.txt) | Ubuntu → Windows, Windows → Ubuntu, and each guest → internet, 0% loss, unedited |
+| [evidence/06-snapshot-list.png](evidence/06-snapshot-list.png.png) | The snapshot list with my clean snapshots |
+| [evidence/07-ping-timeout-before-firewall.png](evidence/07-ping-timeout-before-firewall.png.png) | The real 100% packet loss before the firewall rule — the problem I solved |
 
 ## 5. What I would do differently
 
