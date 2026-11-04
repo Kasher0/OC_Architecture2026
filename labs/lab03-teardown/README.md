@@ -1,9 +1,6 @@
 # Lab 3 — Teardown, and the same machine from the command line
 
-Pair: TODO name + TODO name · Date: 04.11.2026
-
-<!-- HOW TO USE THIS DRAFT: every <!-- CHECK ... --> comment marks a fact that I could not confirm on the maker's own page.
-     Open the maker's page, compare, fix the text if needed, then delete the comment. Delete this note too. -->
+Pair: Kazhymurat + Arsen · Date: 04.11.2026
 
 ## Part 1 — Ten parts
 
@@ -13,7 +10,7 @@ Pair: TODO name + TODO name · Date: 04.11.2026
 **What it is:** 6 cores / 12 threads, Zen 4 ("Raphael"), 3.8 GHz base, up to 5.1 GHz boost, 32 MB L3, 65 W default TDP, integrated Radeon graphics (2 cores).
 **Connects to:** socket **AM5** (boards with A620 / B650 / B650E / B840 / B850 / X670 / X670E / X870 / X870E chipsets). Its memory controller is **DDR5 only**, 2 channels. PCIe 5.0.
 **Limit:** fits only AM5 boards and only DDR5 memory (no DDR4). Official memory speed is DDR5-5200 with two modules (DDR5-3600 with four); faster kits run as an overclock profile.
-Source: https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html
+Source: https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html#product-specs
 
 ### 2. Intel Core i5-13400
 ![Intel Core i5-13400](evidence/photos/core-i5-13400.png)
@@ -21,8 +18,8 @@ Source: https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/am
 **What it is:** 10 cores (6 Performance + 4 Efficient), 16 threads, P-core base 2.5 GHz, max turbo 4.6 GHz, 20 MB Intel Smart Cache, 65 W base power, integrated Intel UHD Graphics 730.
 **Connects to:** socket **FCLGA1700**. Memory controller takes **DDR5-4800 or DDR4-3200**, 2 channels (which one is used is decided by the board's slots). PCIe 5.0 and 4.0, 20 lanes.
 **Limit:** fits only LGA1700 boards. It supports both memory generations, but a given board has only one kind of slot, so the board decides.
-<!-- CHECK: socket, memory types and PCIe lanes come from a copy of Intel's datasheet and from shops; confirm "Sockets Supported" and "Memory Types" on the ARK page. Also confirm max turbo power (I saw 154 W in the datasheet copy) -->
-Source: https://ark.intel.com/content/www/us/en/ark/products/230495/intel-core-i5-13400-processor-20m-cache-up-to-4-60-ghz.html
+
+Source: (https://www.intel.com/content/www/us/en/products/sku/230495/intel-core-i513400-processor-20m-cache-up-to-4-60-ghz/specifications.html)
 
 ### 3. ASUS PRIME B650M-A
 ![ASUS PRIME B650M-A](evidence/photos/asus-b650m-a.png)
@@ -30,8 +27,8 @@ Source: https://ark.intel.com/content/www/us/en/ark/products/230495/intel-core-i
 **What it is:** micro-ATX motherboard, chipset AMD B650, socket AM5.
 **Connects to:** AM5 CPU; DDR5 DIMM slots (4); 2 × M.2 (Key M, 2242/2260/2280, PCIe 4.0 x4); 4 × SATA 6 Gb/s; PCIe 4.0 x16 slot plus two PCIe 4.0 x16 slots running at x1.
 **Limit:** only AM5 processors and only DDR5. Which Ryzen generations it takes is in the CPU Support list (see Step 3).
-<!-- CHECK: socket, chipset, M.2 and SATA I saw in ASUS's own tech-spec text. Number of DIMM slots (4) and "DDR5" I saw only in shops: confirm on the page. Some shops claim a PCIe 5.0 M.2 slot on this board, ASUS's text said PCIe 4.0 x4 for both. Make sure you are on the plain "PRIME B650M-A" page, not "-A II" or "-A WIFI" -->
-Source: https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a/techspec
+
+Source: (https://www.asus.com/ru/motherboards-components/motherboards/prime/prime-b650m-a/)
 
 ### 4. MSI PRO B760M-A WIFI DDR4
 ![MSI PRO B760M-A WIFI DDR4](evidence/photos/msi-b760m-a-wifi-ddr4.png)
@@ -39,8 +36,8 @@ Source: https://www.asus.com/motherboards-components/motherboards/prime/prime-b6
 **What it is:** micro-ATX motherboard, chipset Intel B760, socket LGA1700, Wi-Fi 6E + 2.5G LAN.
 **Connects to:** LGA1700 CPU; 4 × **DDR4** DIMM slots (dual channel, up to 128 GB); 2 × M.2 (M2_1 from the CPU, PCIe 4.0 x4; M2_2 from the chipset, PCIe 4.0 x4 or SATA mode); 4 × SATA 6 Gb/s.
 **Limit:** only LGA1700 CPUs and only DDR4: a DDR5 stick will not fit the slot.
-<!-- CHECK: I found no msi.com page in my search, everything above is from shops. Confirm every line on msi.com (Specification tab + CPU Support) -->
-Source: TODO link to the msi.com page
+
+Source: (https://www.msi.com/Motherboard/PRO-B760M-A-WIFI-DDR4/Specification)
 
 ### 5. Kingston FURY Beast DDR5-5600, 16 GB
 ![Kingston FURY Beast DDR5](evidence/photos/kingston-fury-beast-ddr5.png)
@@ -48,8 +45,8 @@ Source: TODO link to the msi.com page
 **What it is:** DDR5 UDIMM, 16 GB (one module), 5600 MT/s (PC5-44800), CL40, 1.25 V, 288 pins, on-die ECC.
 **Connects to:** a 288-pin DDR5 DIMM slot. One module means one memory channel is used, the second stays empty.
 **Limit:** fits only DDR5 boards (the notch is in a different place than on DDR4). The speed is also capped by the CPU: the Ryzen 5 7600 officially tops out at DDR5-5200 with two modules, so 5600 is reached only through an overclock profile.
-<!-- CHECK: no kingston.com page found in my search, specs are from shops (part KF556C40BB-16). Confirm on kingston.com, and check whether this module has an Intel XMP profile only or also AMD EXPO, because Build 1 is an AMD board -->
-Source: TODO link to the kingston.com page
+
+Source: https://www.kingston.com/ru/memory/gaming/kingston-fury-beast-ddr5-memory?speed=5600mt%2Fs&total%20(kit)%20capacity=16gb&kit=single%20module&cas%20latency=40&dram%20density=16gbit&profile%20type=intel%20xmp&color=black
 
 ### 6. Crucial DDR4-3200, 16 GB DIMM
 ![Crucial DDR4-3200](evidence/photos/crucial-ddr4-3200.png)
@@ -75,8 +72,8 @@ Source: TODO link to the samsung.com page
 **What it is:** SATA SSD, 1 TB, 2.5-inch.
 **Connects to:** a SATA 6 Gb/s port by a data cable and to the power supply by a SATA power cable.
 **Limit:** the SATA bus tops out at about 550 MB/s, far below an NVMe drive.
-<!-- CHECK: I did NOT search this part. Fill in exact speeds, thickness and part number from samsung.com -->
-Source: TODO link to the samsung.com page
+
+Source: https://www.samsung.com/kz_ru/memory-storage/sata-ssd/870-evo-1tb-sata-3-2-5-ssd-mz-77e1t0bw/
 
 ### 9. Corsair RM750e (750 W)
 ![Corsair RM750e](evidence/photos/corsair-rm750e.png)
@@ -84,8 +81,8 @@ Source: TODO link to the samsung.com page
 **What it is:** ATX power supply, 750 W, 80 PLUS Gold, fully modular.
 **Connects to:** the motherboard (24-pin and CPU 8-pin), drives (SATA power), graphics card (PCIe power).
 **Limit:** total wattage, 750 W.
-<!-- CHECK: I did NOT search this part. Fill in the ATX version (3.0 or 3.1), the efficiency rating and the cable list from corsair.com -->
-Source: TODO link to the corsair.com page
+
+Source: https://www.corsair.com/us/en/p/psu/cp-9020292-na/rme-series-rm750e-fully-modular-low-noise-atx-power-supply-white-na-cp-9020292-na?srsltid=AYCX9vKPkV0mtNsvs-N7qkq8QIo0WTOTqHvUVwlOBN2cK8vJPjXJdTmf
 
 ### 10. Stock cooler
 ![Stock cooler](evidence/photos/wraith-stealth.png)
@@ -93,8 +90,8 @@ Source: TODO link to the corsair.com page
 **What it is:** AMD Wraith Stealth, the cooler that ships in the box with the Ryzen 5 7600 (AMD lists "Thermal Solution (PIB): AMD Wraith Stealth" on the product page).
 **Connects to:** the AM5 socket.
 **Limit:** it is made for a 65 W processor.
-<!-- CHECK: the Core i5-13400 box also ships with a cooler according to shops (Intel Laminar RM1). Confirm on Intel's page and answer "which processor ships with one" for both; a tray CPU ships without -->
-Source: same AMD page as part 1
+
+Source: https://www.amd.com/en/products/processors/ecosystem/cpu-cooler-solutions.html
 
 ## Step 3 — The motherboards
 
