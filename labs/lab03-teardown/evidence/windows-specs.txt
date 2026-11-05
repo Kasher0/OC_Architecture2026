@@ -1,0 +1,47 @@
+﻿PS> Get-CimInstance Win32_Processor | Select Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed
+
+Name                                            NumberOfCores NumberOfLogicalProcessors MaxClockSpeed
+----                                            ------------- ------------------------- -------------
+AMD Ryzen 9 8940HX with Radeon Graphics                    16                        32          2401
+
+
+
+PS> Get-CimInstance Win32_PhysicalMemory | Select DeviceLocator, Capacity, Speed, ConfiguredClockSpeed, SMBIOSMemoryType, FormFactor
+
+
+DeviceLocator        : DIMM 0
+Capacity             : 17179869184
+Speed                : 5600
+ConfiguredClockSpeed : 5200
+SMBIOSMemoryType     : 34
+FormFactor           : 12
+
+DeviceLocator        : DIMM 0
+Capacity             : 17179869184
+Speed                : 5600
+ConfiguredClockSpeed : 5200
+SMBIOSMemoryType     : 34
+FormFactor           : 12
+
+
+
+
+PS> Get-PhysicalDisk | Select FriendlyName, MediaType, BusType, Size
+
+FriendlyName            MediaType BusType          Size
+------------            --------- -------          ----
+MTFDKBA1T0QGN-1BN1AABGA SSD       NVMe    1024209543168
+
+
+
+PS> Get-Volume C
+
+DriveLetter FriendlyName FileSystemType DriveType HealthStatus OperationalStatus SizeRemaining      Size
+----------- ------------ -------------- --------- ------------ ----------------- -------------      ----
+C           Windows 11   NTFS           Fixed     Healthy      OK                     69.91 GB 952.82 GB
+
+
+
+PS> $env:PROCESSOR_ARCHITECTURE
+AMD64
+
