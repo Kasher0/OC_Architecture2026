@@ -111,27 +111,29 @@ Source: https://www.amd.com/en/products/processors/ecosystem/cpu-cooler-solution
 
 | Part | Model | Why it fits here |
 |---|---|---|
-| Processor | AMD Ryzen 5 7600 | needs socket AM5 |
-| Motherboard | ASUS PRIME B650M-A | has socket AM5, B650 chipset is in the 7600's supported list |
-| Memory | Kingston FURY Beast DDR5-5600 16 GB | the 7600 and this board are DDR5 only |
-| SSD | Samsung 990 PRO 1 TB | M.2 Key M slot with PCIe 4.0 x4 matches the drive's interface |
-| Power | Corsair RM750e | has the 24-pin and CPU 8-pin the board needs; 750 W is far more than a 65 W CPU with integrated graphics needs |
-| Cooler | AMD Wraith Stealth | ships with the 7600, AM5 mounting |
+| Processor | AMD Ryzen 5 7600 | The starting point of this build. It has 6 cores / 12 threads and a 65 W default TDP, and it has integrated Radeon graphics, so the build needs no graphics card. It uses socket AM5 and its memory controller supports DDR5 only, so the motherboard and the memory below are chosen to match these two facts. |
+| Motherboard | ASUS PRIME B650M-A | It has socket AM5, the same socket as the 7600, so the processor physically fits. ASUS lists Ryzen 7000, 8000 and 9000 as supported, and the 7600 is a 7000-series chip. AMD's page for the 7600 lists B650 among the chipsets it works with. The board's DIMM slots are DDR5, the only memory type the 7600 can use. It is micro-ATX and has video outputs, which this build needs because it uses the integrated graphics of the CPU. |
+| Memory | Kingston FURY Beast DDR5-5600 16 GB | Both the 7600 and the board are DDR5 only, and this is a DDR5 288-pin DIMM. A DDR4 module would not fit the slot at all because its notch is in a different place. The module is rated 5600 MT/s, which is above the official 5200 MT/s of the 7600 (with two modules), so it is compatible, but the extra speed is only available through an overclock profile; without one it runs at its standard base speed. One module uses one of the four slots, so memory works in one channel. |
+| SSD | Samsung 990 PRO 1 TB | The 990 PRO is an NVMe drive in the M.2 2280 size with a PCIe 4.0 x4 interface. The board has two M.2 Key M slots that take 2280 drives and give PCIe 4.0 x4, so both the size and the bus match and the drive can run at its full speed. It needs no cable: it plugs straight into the board. |
+| Power | Corsair RM750e | An ATX power supply gives the 24-pin main connector and the CPU 8-pin connector that ATX and micro-ATX boards use. 750 W is far more than this build needs: a 65 W processor with integrated graphics and no graphics card. The extra capacity is only headroom (for example for a graphics card later), not a requirement. |
+| Cooler | AMD Wraith Stealth | It comes in the box with the Ryzen 5 7600, it mounts on socket AM5, and it is made for a processor of this 65 W class, so nothing extra has to be bought. |
 
 ### Build 2 — Intel
 
 | Part | Model | Why it fits here |
 |---|---|---|
-| Processor | Intel Core i5-13400 | needs socket LGA1700 |
-| Motherboard | MSI PRO B760M-A WIFI DDR4 | has LGA1700, takes 13th gen |
-| Memory | Crucial DDR4-3200 16 GB | the board has only DDR4 slots; 3200 is the CPU's DDR4 maximum |
-| SSD | Samsung 870 EVO 1 TB | the board has 4 SATA ports; 2.5-inch SATA drive |
-| Cooler | Intel boxed cooler |AMD Wraith Stealth cooler |
+| Processor | Intel Core i5-13400 | The starting point of this build. It has 10 cores (6 Performance + 4 Efficient), 16 threads, 65 W base power and integrated Intel UHD Graphics 730, so no graphics card is needed. It uses socket LGA1700. Its memory controller supports both DDR5-4800 and DDR4-3200, so here the motherboard decides which memory type is used. |
+| Motherboard | MSI PRO B760M-A WIFI DDR4 | It has socket LGA1700, the same as the i5-13400, so the processor fits. MSI lists 12th, 13th and 14th gen Core processors as supported, and the 13400 is 13th gen. The board's four DIMM slots are DDR4, which the CPU supports (up to DDR4-3200), and this is the reason the build uses DDR4 and not DDR5. It is micro-ATX and has video outputs for the integrated graphics. |
+| Memory | Crucial DDR4-3200 16 GB | The board has only DDR4 slots, so DDR4 is the only type that works here, and the Kingston DDR5 module from Build 1 cannot be used. 3200 MT/s is exactly the official DDR4 maximum of the i5-13400, so the module runs at the full speed the processor supports without any overclocking. |
+| SSD | Samsung 870 EVO 1 TB | It is a 2.5-inch SATA drive and the board has four SATA 6 Gb/s ports, so the interface matches. It needs a SATA data cable to the board and a SATA power cable from the power supply. A SATA drive is used here so that the two builds cover both kinds of SSD, NVMe in Build 1 and SATA in Build 2; its limit is the SATA bus of about 550 MB/s. |
+| Cooler | Cooler from the i5-13400 box (Intel boxed cooler) | The Wraith Stealth from Build 1 is an AMD cooler with AM5 mounting, so it does not fit an LGA1700 board, and the parts list has only one stock cooler. This build therefore uses the cooler that comes in the box with the i5-13400, which has LGA1700 mounting. |
+
+<!-- CHECK: confirm on Intel's page that the i5-13400 box includes a cooler. If it does not, delete the row's claim and add "an LGA1700 cooler" to what Build 2 still needs -->
 
 ### What each build still needs
 
 - **Build 1:** a case, a keyboard and monitor, an operating system. No graphics card is needed (the 7600 has integrated graphics; the board has video outputs).
-- **Build 2:** everything above, **plus a power supply**, because the parts list has only one (the RM750e went to Build 1). It also needs a SATA data cable for the 870 EVO and a SATA power connector from the PSU.
+- **Build 2:** everything above, **plus a power supply**, because the parts list has only one (the RM750e went to Build 1). It also needs a SATA data cable for the 870 EVO and a SATA power connector from the PSU. If Intel's page shows that the i5-13400 box has no cooler, it also needs an LGA1700 cooler, because the Wraith Stealth is for AM5 and stays with Build 1.
 - Both builds have only one 16 GB module, so memory runs in single-channel mode with two empty slots; a second identical module would add a channel.
 <!-- CHECK: whether the MSI box includes a SATA cable and the Wi-Fi antenna: read the "What's in the box" section on msi.com -->
 
