@@ -54,8 +54,8 @@ Source: https://www.kingston.com/ru/memory/gaming/kingston-fury-beast-ddr5-memor
 **What it is:** DDR4 UDIMM, 16 GB, 3200 MT/s (PC4-25600), 288 pins, 1.2 V.
 **Connects to:** a 288-pin DDR4 DIMM slot, one per channel.
 **Limit:** fits only DDR4 boards. 3200 MT/s is exactly the top official DDR4 speed of the Core i5-13400.
-<!-- CHECK: I did NOT search this part, these numbers are from my own knowledge. Fill in from crucial.com (exact part number, voltage, latency) -->
-Source: TODO link to the crucial.com page
+
+Source: https://www.crucial.com/memory/ddr4/ct16g4dfra32a
 
 ### 7. Samsung 990 PRO 1 TB
 ![Samsung 990 PRO](evidence/photos/samsung-990-pro.png)
@@ -63,8 +63,8 @@ Source: TODO link to the crucial.com page
 **What it is:** NVMe SSD, 1 TB, form factor M.2 2280, interface PCIe 4.0 x4 (NVMe 2.0), up to 7,450 MB/s sequential read and 6,900 MB/s write.
 **Connects to:** an M.2 Key M slot that provides PCIe lanes. No data or power cable.
 **Limit:** the bus: it runs at PCIe 4.0 x4 speed at best, and an M.2 slot that is SATA-only would not work.
-<!-- CHECK: no samsung.com page found in my search, specs are from shops (MZ-V9P1T0BW). Confirm on samsung.com -->
-Source: TODO link to the samsung.com page
+
+Source: https://www.samsung.com/in/memory-storage/nvme-ssd/990-pro-1tb-nvme-pcie-gen-4-mz-v9p1t0bw/
 
 ### 8. Samsung 870 EVO 1 TB
 ![Samsung 870 EVO](evidence/photos/samsung-870-evo.png)
@@ -102,9 +102,8 @@ Source: https://www.amd.com/en/products/processors/ecosystem/cpu-cooler-solution
 | Memory | DDR5, 4 slots | DDR4, 4 slots |
 | Storage | 2 × M.2 (PCIe 4.0 x4), 4 × SATA | 2 × M.2 (PCIe 4.0 x4; M2_2 also SATA mode), 4 × SATA |
 | CPUs accepted | Ryzen 7000, 8000, 9000 | Core 12th, 13th and 14th gen, Pentium Gold, Celeron |
-| BIOS update needed? | TODO from the CPU Support list | TODO from the CPU Support list |
+| BIOS update needed? | Not necessary, but recommended | Not necessary |
 
-<!-- CHECK: fill the last row from the "CPU support" list of each board. Ryzen 5 7600 is 7000-series, Core i5-13400 is 13th gen: say whether the list shows a minimum BIOS version for them -->
 
 ## Two builds
 
@@ -127,7 +126,7 @@ Source: https://www.amd.com/en/products/processors/ecosystem/cpu-cooler-solution
 | Motherboard | MSI PRO B760M-A WIFI DDR4 | has LGA1700, takes 13th gen |
 | Memory | Crucial DDR4-3200 16 GB | the board has only DDR4 slots; 3200 is the CPU's DDR4 maximum |
 | SSD | Samsung 870 EVO 1 TB | the board has 4 SATA ports; 2.5-inch SATA drive |
-| Cooler | Intel boxed cooler | TODO confirm on Intel's page (see part 10) |
+| Cooler | Intel boxed cooler |AMD Wraith Stealth cooler |
 
 ### What each build still needs
 
@@ -150,11 +149,11 @@ Windows is my laptop (the host). Linux is the Ubuntu VM from Lab 1, so it descri
 | Free space | `Get-Volume C` | `df -h /` | `df -h /` |
 | Architecture | `$env:PROCESSOR_ARCHITECTURE` | `uname -m` | `uname -m` |
 
-TODO (2–3 sentences, write after you have the outputs): how the names differ between the systems (compare the exact words each command prints for the same fact, for example how many "cores" and "threads" each one reports and under which names), and what the VM showed differently from the host (compare `lsblk` and `dmidecode` output in the VM with the Windows output on the laptop).
+executing the command in powershell information showed me CPU model 34 (means DDR5), while in ubuntu its showed as 25 (DDR4). Also 16 Cores in my laptop versus 4 Cores in linux ubuntu
 
 ## What did not work the first time
 
-TODO: one real thing from your own session. What you saw, what it turned out to be, what you did.
+I was struggling to execute command to get information from ubuntu-serverr. So basically I just executed a consequative commands (sudo - v, mkdir -p ~/evidence, { echo '$ lscpu'; lscpu; } >> ~/evidence/linux-specs.txt, { echo '$ free -h'; free -h; } >> ~/evidence/linux-specs.txt, { echo '$ free -h'; free -h; } >> ~/evidence/linux-specs.txt, { echo '$ sudo dmidecode -t memory'; sudo dmidecode -t memory; } >> ~/evidence/linux-specs.txt, { echo '$ lsblk -d -o NAME,MODEL,ROTA,TRAN,SIZE'; lsblk -d -o NAME,MODEL,ROTA,TRAN,SIZE; } >> ~/evidence/linux-specs.txt, { echo '$ df -h /'; df -h /; } >> ~/evidence/linux-specs.txt and { echo '$ uname -m'; uname -m; } >> ~/evidence/linux-specs.txt) and checked that they all were executed by cat ~/evidence/linux-specs.txt command
 
 ## Evidence
 
