@@ -128,14 +128,13 @@ Source: https://www.amd.com/en/products/processors/ecosystem/cpu-cooler-solution
 | SSD | Samsung 870 EVO 1 TB | It is a 2.5-inch SATA drive and the board has four SATA 6 Gb/s ports, so the interface matches. It needs a SATA data cable to the board and a SATA power cable from the power supply. A SATA drive is used here so that the two builds cover both kinds of SSD, NVMe in Build 1 and SATA in Build 2; its limit is the SATA bus of about 550 MB/s. |
 | Cooler | Cooler from the i5-13400 box (Intel boxed cooler) | The Wraith Stealth from Build 1 is an AMD cooler with AM5 mounting, so it does not fit an LGA1700 board, and the parts list has only one stock cooler. This build therefore uses the cooler that comes in the box with the i5-13400, which has LGA1700 mounting. |
 
-<!-- CHECK: confirm on Intel's page that the i5-13400 box includes a cooler. If it does not, delete the row's claim and add "an LGA1700 cooler" to what Build 2 still needs -->
 
 ### What each build still needs
 
 - **Build 1:** a case, a keyboard and monitor, an operating system. No graphics card is needed (the 7600 has integrated graphics; the board has video outputs).
 - **Build 2:** everything above, **plus a power supply**, because the parts list has only one (the RM750e went to Build 1). It also needs a SATA data cable for the 870 EVO and a SATA power connector from the PSU. If Intel's page shows that the i5-13400 box has no cooler, it also needs an LGA1700 cooler, because the Wraith Stealth is for AM5 and stays with Build 1.
 - Both builds have only one 16 GB module, so memory runs in single-channel mode with two empty slots; a second identical module would add a channel.
-<!-- CHECK: whether the MSI box includes a SATA cable and the Wi-Fi antenna: read the "What's in the box" section on msi.com -->
+
 
 ## Part 2 — Same facts, three operating systems
 
@@ -151,7 +150,7 @@ Windows is my laptop (the host). Linux is the Ubuntu VM from Lab 1, so it descri
 | Free space | `Get-Volume C` | `df -h /` | `df -h /` |
 | Architecture | `$env:PROCESSOR_ARCHITECTURE` | `uname -m` | `uname -m` |
 
-executing the command in powershell information showed me CPU model 34 (means DDR5), while in ubuntu its showed as 25 (DDR4). Also 16 Cores in my laptop versus 4 Cores in linux ubuntu
+executing the command in powershell information showed me memory type code 34 (means DDR5), while in ubuntu its showed as 26 (DDR4). Also 16 Cores in my laptop versus 4 Cores in linux ubuntu
 
 ## What did not work the first time
 
