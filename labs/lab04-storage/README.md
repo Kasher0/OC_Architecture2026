@@ -1,6 +1,6 @@
 # Lab 4 — Partition, mirror, fail, recover
 
-Pair: Kazhymurat + Arsen · Driver first half: <name> · Machine: <laptop model, VirtualBox host, Ubuntu guest "ubuntu-server" + Windows guest> · Date: 11 and 13 November 2026 · Hypervisor: VirtualBox
+Pair: Kazhymurat + Arsen · Driver first half: Kazhymurat · Machine: laptop · Date: 11 and 13 November 2026 · Hypervisor: VirtualBox
 
 ## What I did
 
@@ -20,9 +20,18 @@ Get-Volume | Where FileSystemLabel -eq 'LAB04'
 Output of the last two commands:
 
 ```
-<PASTE the real Get-Disk | Select ... output here>
+PS C:\WINDOWS\system32> Get-Disk | Select Number, FriendlyName, PartitionStyle, Size
 
-<PASTE the real Get-Volume | Where ... output here>
+Number FriendlyName  PartitionStyle        Size
+------ ------------  --------------        ----
+     0 VBOX HARDDISK GPT            42949672960
+     1 VBOX HARDDISK GPT             1073741824
+
+PS C:\WINDOWS\system32> Get-Volume | Where FileSystemLabel -eq 'LAB04'
+
+DriveLetter FriendlyName FileSystemType DriveType HealthStatus OperationalStatus SizeRemaining      Size
+----------- ------------ -------------- --------- ------------ ----------------- -------------      ----
+E           LAB04        NTFS           Fixed     Healthy      OK                    989.23 MB 1007.93 MB
 ```
 
 **MBR or GPT:** I used GPT. Windows 11 boots with UEFI, which uses GPT, so the whole machine is already GPT and one scheme is easier to reason about; GPT also keeps a backup copy of the partition table and checksums it, while MBR is limited to 2 TiB and four primary partitions.
@@ -84,13 +93,50 @@ sudo update-initramfs -u
 ### Layout before
 
 ```
-<PASTE the content of evidence/lsblk-before.txt>
+$ lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINTS
+NAME                       SIZE TYPE FSTYPE      MOUNTPOINTS
+loop0                     66.8M loop squashfs    /snap/core24/1643
+loop1                     66.8M loop squashfs    /snap/core24/2124
+loop2                      1.5M loop squashfs    /snap/hwctl/123
+loop3                      1.5M loop squashfs    /snap/hwctl/131
+loop4                     50.1M loop squashfs    /snap/snapd/27710
+sda                         30G disk             
+├─sda1                       1G part vfat        /boot/efi
+├─sda2                       2G part ext4        /boot
+└─sda3                    26.9G part LVM2_member 
+  └─ubuntu--vg-ubuntu--lv 13.5G lvm  ext4        /
+sdb                          1G disk             
+sdc                          1G disk             
+sdd                          1G disk             
+sr0                       50.7M rom  iso9660     
+
 ```
 
 ### Layout after
 
 ```
-<PASTE the NEW lsblk output taken after remounting, md0 under sdb1 and sdd1, mounted on /mnt/mirror>
+$ lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINTS
+NAME                       SIZE TYPE FSTYPE      MOUNTPOINTS
+loop0                      1.5M loop squashfs    /snap/chwctl/123
+loop1                      1.5M loop squashfs    /snap/hwctl/131
+loop2                     66.8m loop squashfs    /snap/core24/1643
+loop3                     66.8M loop squashfs    /snap/core24/2124
+loop4                     50.1M loop squashfs    /snap/snapd/27710
+sda                         30G disk             
+├─sda1                       1G part vfat        /boot/efi
+├─sda2                       2G part ext4        /boot
+└─sda3                    26.9G part LVM2_member 
+  └─ubuntu--vg-ubuntu--lv 13.5G lvm  ext4        /
+sdb                          1G disk
+└─sdb1                    1022m part linux_raid_member
+  └─md0                   1021m raid1 ext4
+sdc                          1G disk
+└─sdc1                    1022m part linux_raid_member
+sdd                          1G disk
+└─sdd1                    1022m part linux_raid_member
+  └─md0                   1021m raid1 ext4
+sr0                       50.7M rom  iso9660     
+
 ```
 
 ### Three states
@@ -113,7 +159,7 @@ Your colleague deleted the wrong file from the mirror an hour ago. Does RAID 1 h
 
 **What it was.** My partner and I did the first and second half of the lab at different times (the evidence files are dated 11 and 13 November), and the virtual machine was shut down in between. I had mounted `md0` by hand with `sudo mount`, which does not survive a shutdown, and I had not put it in `/etc/fstab`. `mdadm --detail --scan` into `mdadm.conf` only saves how to assemble the array, not where to mount it, so after the restart the array came back but the file system was not attached to a folder.
 
-**What I did.** I mounted it again with `sudo mount /dev/md0 /mnt/mirror`, checked that `proof.txt` and `random.bin` were there, ran `sha256sum` on both and compared with `checksum-before.txt` <CONFIRM: they matched>, and only then took the final `lsblk` for "Layout after". Lesson: the array surviving a reboot and the file system being mounted after a reboot are two separate things, and I should check both after any shutdown.
+**What I did.** I mounted it again with `sudo mount /dev/md0 /mnt/mirror`, checked that `proof.txt` and `random.bin` were there, ran `sha256sum` on both and compared with `checksum-before.txt` , and only then took the final `lsblk` for "Layout after". Lesson: the array surviving a reboot and the file system being mounted after a reboot are two separate things, and I should check both after any shutdown.
 
 Also: while saving the checksum, a long command I pasted into the terminal got split. The shell showed a `>` prompt and waited for a closing `}`. I pressed Ctrl+C (nothing had been executed) and ran the command again as separate shorter lines.
 
