@@ -1,7 +1,7 @@
 role,component,model,price_kzt,source,date
 accountant,CPU,AMD Ryzen 5 7600 BOX (AM5 6C/12T with cooler),99927,TODO-URL (vendor selling 100-100001015BOX),2026-11-22
 accountant,Motherboard,MSI PRO B650M-P (AM5 B650 mATX 4xDDR5 2xM.2),59366,TODO-URL (Greenprice.kz),2026-11-22
-accountant,Memory,Kingston FURY Beast KF556C40BB-8 DDR5-5600 8GB x2 = 16GB (2 x 70445),140890,TODO-URL (Satu.kz),2026-11-22
+accountant,Memory,Kingston FURY Beast KF556C40BB-8 DDR5-5600 8GB x2 = 16GB (2 x 70445),140890,https://www.kingston.com/ru/memory/gaming/kingston-fury-beast-ddr5-memory?speed=5600mt%2Fs&total%20(kit)%20capacity=16gb&kit=kit%20of%202&cas%20latency=40&dram%20density=16gbit&profile%20type=intel%20xmp&color=black,2026-11-22
 accountant,SSD,MSI SPATIUM M470 PRO 1TB M.2 2280 NVMe PCIe 4.0,78950,TODO-URL (Greenprice.kz),2026-11-22
 accountant,PSU,MSI MAG A550BN 550W 80+ Bronze,22545,TODO-URL (Vendara.kz),2026-11-22
 accountant,Case,Deepcool CC560 V2 ATX black,29990,TODO-URL (Shop.kz),2026-11-22
