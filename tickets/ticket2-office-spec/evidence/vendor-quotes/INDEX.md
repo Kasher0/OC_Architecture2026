@@ -1,6 +1,6 @@
 # Vendor quote screenshots (address bar and date/clock visible in each)
 
-| File (your screenshot) | Covers budget.csv rows |
+| File | Covers budget.csv rows |
 |---|---|
 | shared-cpu-ryzen5-7600.png | CPU, all four roles |
 | shared-motherboard-msi-b650m-p.png | Motherboard, all four |
@@ -13,4 +13,4 @@
 | os-windows11-pro.png | OS: accountant, sales, designer |
 | web-developer-os-ubuntu.png | OS: web developer (free, licence page) |
 | accountant-monitor.png / sales-monitor.png / webdev-monitor.png / designer-monitor.png | Monitors |
-| prebuilt-*.png | Pre-built prices (3rd question) |
+| prebuilt-.png/prebuilt_.png | Pre-built prices (3rd question) |
