@@ -33,7 +33,7 @@ Compatibility checked: CPU socket AM5 = board socket AM5; board DDR5 = DDR5 memo
 **Trade-off:** no discrete graphics card - the integrated Radeon is weak for GPU-accelerated filters; and a 1440p sRGB-100% monitor instead of a hardware-calibrated or wide-gamut one (27" 4K sRGB 99% listings start around 173,000 KZT, about +77,000 KZT).
 **Alternative not taken:** discrete GPU (not priced); 4K monitor; Ryzen 7.
 **OS:** Windows 11 Pro OEM.
-**Total:** 722,334 KZT (budget.csv, rows 29-37)
+**Total:** ~771,634 KZT (budget.csv, rows 29-37)
 
 ## Grand total
 2,500,749 KZT, i.e. 499,251 KZT under the 3,000,000 limit. The gap is kept for what the request forgot (keyboards, mice, cables, a UPS, a backup drive) and for price drift: memory prices in Kazakhstan move within a month. [EDIT: if you spend part of it, update budget.csv]
