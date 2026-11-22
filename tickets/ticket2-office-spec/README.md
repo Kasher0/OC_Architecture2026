@@ -57,10 +57,10 @@ The designer's machine: I would add a discrete graphics card. The board, the cas
 
 | Role | Pre-built model | Specs | Price, KZT | Vendor link | Date |
 |---|---|---|---|---|---|
-| Accountant | TODO | TODO | TODO | TODO | TODO |
-| Sales manager | TODO | TODO | TODO | TODO | TODO |
-| Web developer | TODO | TODO | TODO | TODO | TODO |
-| Designer | TODO | TODO | TODO | TODO | TODO |
+| Accountant | DEXP Mars G013 | Ryzen 7 5700G (8 cores) / 16 GB DDR4 / 1 TB M.2 PCIe SSD / integrated graphics / 500 W PSU / no OS, no monitor | 283,350 (cash/card; 298,250 in installments) | (https://www.dns-shop.kz/search/?q=%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9+%D0%B1%D0%BB%D0%BE%D0%BA&category=17a8932c16404e77&stock=now-today-tomorrow-later&f[1hd]=cx&f[1go]=cr&f[1he]=1qhl&f[1gt]=d5) | 2026-11-22 |
+| Sales manager | ПК DEXP Atlas H578 | Ryzen 7 5700G (8 cores) / 32 GB DDR4 / 1 TB M.2 PCIe SSD / integrated graphics / 500 W PSU / no monitor | 494,590 (cash/card; 520,590 installments) | (https://www.dns-shop.kz/search/?q=%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9+%D0%B1%D0%BB%D0%BE%D0%BA&category=17a8932c16404e77&stock=now-today-tomorrow-later&f[1hd]=1qx&f[1go]=cr&f[1he]=1qhl&f[1gt]=d5) | 2026-11-22 |
+| Web developer | ПК DEXP Mars G021 | Ryzen 7 8700G (8 cores) / 32 GB DDR5 / 1 TB M.2 PCIe SSD / integrated graphics / B650 / 600 W PSU / no monitor | 549,990 (cash/card; 578,890 installments) | https://www.dns-shop.kz/search/?q=%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9+%D0%B1%D0%BB%D0%BE%D0%BA&category=17a8932c16404e77&stock=now-today-tomorrow-later&f[1hd]=1qx&f[1go]=cr&f[1he]=1qhl&f[1gt]=d5 | 2026-11-22 |
+| Designer | ПК ASUS V500 VM501MH-0R72600250 [90PF0642-M009T0] | Ryzen 7 260 (8 cores) / 32 GB DDR5 / 1 TB M.2 PCIe SSD / integrated graphics / 180 W PSU / no monitor | 626,090 (cash/card; 659,090 installments) | https://www.dns-shop.kz/search/?q=%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9+%D0%B1%D0%BB%D0%BE%D0%BA&category=17a8932c16404e77&stock=now-today-tomorrow-later&f[1hd]=1qx&f[1go]=cr&f[1he]=1qhl&f[1gt]=d5 | 2026-11-22 |
 
 Gains: one warranty and one support contact, no assembly or testing time, the operating system is already installed and licensed. Losses: choice of parts, an upgrade path on models with proprietary parts, and the ability to put the money exactly on each person's bottleneck.
 <!-- EDIT: after filling the table, add the price difference vs my builds (2,500,749 KZT) -->
