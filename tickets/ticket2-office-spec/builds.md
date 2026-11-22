@@ -18,7 +18,7 @@ Compatibility checked: CPU socket AM5 = board socket AM5; board DDR5 = DDR5 memo
 **Trade-off:** a mid CPU (Ryzen 5 7600), a plain 24" Lenovo monitor, no extra webcam or headset in the budget. The CPU idles in this role; memory does not.
 **Alternative not taken:** 16 GB (-89,278 KZT); a better monitor (LG 24MR400-B is +5,375 KZT).
 **OS:** Windows 11 Pro OEM.
-**Total:** 635,741 KZT (budget.csv, rows 11-19)
+**Total:** 646,051 KZT (budget.csv, rows 11-19)
 
 ## Build 3 - web developer
 **Load:** code editor, several browsers, Docker containers, a local database, sometimes a VM, all running at once. [EDIT]
