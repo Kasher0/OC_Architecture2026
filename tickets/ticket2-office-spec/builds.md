@@ -25,7 +25,7 @@ Compatibility checked: CPU socket AM5 = board socket AM5; board DDR5 = DDR5 memo
 **Bottleneck:** memory first (containers + VM + browsers), then CPU threads.
 **Trade-off:** 6-core CPU instead of 8-core, 32 GB instead of 64 GB (prices for these two alternatives NOT checked). Money saved on the OS: Ubuntu LTS is free and open-source licensed, and the tools (Docker, Node, databases) run natively on it. Assumes no Windows-only tool is needed - the question I would ask Daniyar.
 **Alternative not taken:** Windows 11 Pro (+67,970 KZT); Ryzen 7 (not priced); 64 GB (not priced).
-**Total:** 590,836 KZT (budget.csv, rows 20-28)
+**Total:** 601,146 KZT (budget.csv, rows 20-28)
 
 ## Build 4 - designer
 **Load:** Photoshop/Illustrator/Figma-type 2D work with large files and many layers; colour-critical output. Assumption: no 3D or video editing. [EDIT]
