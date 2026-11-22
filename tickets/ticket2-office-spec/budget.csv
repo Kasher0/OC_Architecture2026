@@ -1,0 +1,38 @@
+role,component,model,price_kzt,source,date
+accountant,CPU,AMD Ryzen 5 7600 BOX (AM5 6C/12T with cooler),99927,TODO-URL (vendor selling 100-100001015BOX),2026-11-22
+accountant,Motherboard,MSI PRO B650M-P (AM5 B650 mATX 4xDDR5 2xM.2),59366,TODO-URL (Greenprice.kz),2026-11-22
+accountant,Memory,Kingston FURY Beast KF556C40BB-8 DDR5-5600 8GB x2 = 16GB (2 x 70445),140890,TODO-URL (Satu.kz),2026-11-22
+accountant,SSD,MSI SPATIUM M470 PRO 1TB M.2 2280 NVMe PCIe 4.0,78950,TODO-URL (Greenprice.kz),2026-11-22
+accountant,PSU,MSI MAG A550BN 550W 80+ Bronze,22545,TODO-URL (Vendara.kz),2026-11-22
+accountant,Case,Deepcool CC560 V2 ATX black,29990,TODO-URL (Shop.kz),2026-11-22
+accountant,OS,Microsoft Windows 11 Pro 64-bit Russian OEI KZ only (DSP),67970,TODO-URL (Satu.kz seller - check it is a real DSP licence),2026-11-22
+accountant,Monitor,LG 24MR400-B 24in IPS 1080p 100Hz,52200,TODO-URL (Forcecom.kz),2026-11-22
+accountant,TOTAL,,551838,,2026-11-22
+sales,CPU,AMD Ryzen 5 7600 BOX (AM5 6C/12T with cooler),99927,TODO-URL (vendor selling 100-100001015BOX),2026-11-22
+sales,Motherboard,MSI PRO B650M-P (AM5 B650 mATX 4xDDR5 2xM.2),59366,TODO-URL (Greenprice.kz),2026-11-22
+sales,Memory,Kingston FURY Beast Black KF560C36BBE2K2-32 DDR5-6000 2x16GB,230168,TODO-URL (Flexcom.kz),2026-11-22
+sales,SSD,MSI SPATIUM M470 PRO 1TB M.2 2280 NVMe PCIe 4.0,78950,TODO-URL (Greenprice.kz),2026-11-22
+sales,PSU,MSI MAG A550BN 550W 80+ Bronze,22545,TODO-URL (Vendara.kz),2026-11-22
+sales,Case,Deepcool CC560 V2 ATX black,29990,TODO-URL (Shop.kz),2026-11-22
+sales,OS,Microsoft Windows 11 Pro 64-bit Russian OEI KZ only (DSP),67970,TODO-URL (Satu.kz seller - check it is a real DSP licence),2026-11-22
+sales,Monitor,Lenovo L24-4e 23.8in 1080p 100Hz,46825,TODO-URL (Vendara.kz),2026-11-22
+sales,TOTAL,,635741,,2026-11-22
+webdev,CPU,AMD Ryzen 5 7600 BOX (AM5 6C/12T with cooler),99927,TODO-URL (vendor selling 100-100001015BOX),2026-11-22
+webdev,Motherboard,MSI PRO B650M-P (AM5 B650 mATX 4xDDR5 2xM.2),59366,TODO-URL (Greenprice.kz),2026-11-22
+webdev,Memory,Kingston FURY Beast Black KF560C36BBE2K2-32 DDR5-6000 2x16GB,230168,TODO-URL (Flexcom.kz),2026-11-22
+webdev,SSD,MSI SPATIUM M470 PRO 1TB M.2 2280 NVMe PCIe 4.0,78950,TODO-URL (Greenprice.kz),2026-11-22
+webdev,PSU,MSI MAG A550BN 550W 80+ Bronze,22545,TODO-URL (Vendara.kz),2026-11-22
+webdev,Case,Deepcool CC560 V2 ATX black,29990,TODO-URL (Shop.kz),2026-11-22
+webdev,OS,Ubuntu Desktop LTS (free open-source licence),0,https://ubuntu.com/download/desktop,2026-11-22
+webdev,Monitor,Dahua LM27-C301B 27in IPS 1440p,69890,TODO-URL (pick vendor from e-katalog.kz/DAHUA-LM27-C301B.htm),2026-11-22
+webdev,TOTAL,,590836,,2026-11-22
+designer,CPU,AMD Ryzen 5 7600 BOX (AM5 6C/12T with cooler),99927,TODO-URL (vendor selling 100-100001015BOX),2026-11-22
+designer,Motherboard,MSI PRO B650M-P (AM5 B650 mATX 4xDDR5 2xM.2),59366,TODO-URL (Greenprice.kz),2026-11-22
+designer,Memory,Kingston FURY Beast Black KF560C36BBE2K2-32 DDR5-6000 2x16GB,230168,TODO-URL (Flexcom.kz),2026-11-22
+designer,SSD,Samsung 990 1TB M.2 2280 NVMe PCIe 4.0 (MZ-V9V1T0BW),115920,TODO-URL (Neom.kz),2026-11-22
+designer,PSU,MSI MAG A550BN 550W 80+ Bronze,22545,TODO-URL (Vendara.kz),2026-11-22
+designer,Case,Deepcool CC560 V2 ATX black,29990,TODO-URL (Shop.kz),2026-11-22
+designer,OS,Microsoft Windows 11 Pro 64-bit Russian OEI KZ only (DSP),67970,TODO-URL (Satu.kz seller - check it is a real DSP licence),2026-11-22
+designer,Monitor,LG 27BA54QB 27in IPS 1440p sRGB 100%,96448,TODO-URL (pick vendor from e-katalog.kz/LG-27BA54QB.htm),2026-11-22
+designer,TOTAL,,722334,,2026-11-22
+ALL,GRAND TOTAL,,2500749,,2026-11-22
