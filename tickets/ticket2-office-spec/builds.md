@@ -36,4 +36,4 @@ Compatibility checked: CPU socket AM5 = board socket AM5; board DDR5 = DDR5 memo
 **Total:** ~771,634 KZT (budget.csv, rows 29-37)
 
 ## Grand total
-2,500,749 KZT, i.e. 499,251 KZT under the 3,000,000 limit. The gap is kept for what the request forgot (keyboards, mice, cables, a UPS, a backup drive) and for price drift: memory prices in Kazakhstan move within a month. [EDIT: if you spend part of it, update budget.csv]
+~2,580,979 KZT, i.e. 419,021 KZT under the 3,000,000 limit. The gap is kept for what the request forgot (keyboards, mice, cables, a UPS, a backup drive) and for price drift: memory prices in Kazakhstan move within a month.
