@@ -10,7 +10,7 @@ Compatibility checked: CPU socket AM5 = board socket AM5; board DDR5 = DDR5 memo
 **Trade-off:** 16 GB (2 x 8 GB) instead of 32 GB (+89,278 KZT), one SSD only, no UPS or backup drive in the budget. Acceptable because spreadsheets use little memory; backups go to an external drive or cloud.
 **Alternative not taken:** 32 GB kit; Samsung 990 instead of MSI M470 PRO (+36,970 KZT).
 **OS:** Windows 11 Pro OEM licence - accounting software in Kazakhstan often needs Windows (assumption).
-**Total:** 551,838 KZT (budget.csv, rows 2-10)
+**Total:** 562,148 KZT (budget.csv, rows 2-10)
 
 ## Build 2 - sales manager
 **Load:** CRM in the browser with 30-40 tabs, Excel, several hours of video calls a day, often all at once. [EDIT]
