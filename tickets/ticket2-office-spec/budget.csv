@@ -1,38 +1,33 @@
-role,component,model,price_kzt,source,date
-accountant,CPU,AMD Ryzen 5 7600 BOX (AM5 6C/12T with cooler),99927,https://www.dns-shop.kz/product/0c29f0e7e957ed20/processor-amd-ryzen-5-7600-box/,2026-11-22
-accountant,Motherboard,MSI PRO B650M-P (AM5 B650 mATX 4xDDR5 2xM.2),59366,https://www.dns-shop.kz/product/2a63664ce255ed20/materinskaa-plata-msi-pro-b650m-p/,2026-11-22
-accountant,Memory,Kingston FURY Beast KF556C40BB-8 DDR5-5600 8GB x2 = 16GB (2 x 70445),140890,https://www.dns-shop.kz/product/e37f7639fb37ed20/operativnaa-pamat-ddr5-udimm-kingston-fury-beast-black-kf556c40bbk2-16-16-gb/,2026-11-22
-accountant,SSD,MSI SPATIUM M470 PRO 1TB M.2 2280 NVMe PCIe 4.0,78950,https://www.dns-shop.kz/product/c3c760e2ab71a735/1000-gb-m2-nvme-nakopitel-msi-spatium-m470-pro-s78-440l0j0-p83/,2026-11-22
-accountant,PSU,MSI MAG A550BN 550W 80+ Bronze,22545,https://www.dns-shop.kz/product/5af90f62ee812ff2/blok-pitania-msi-mag-a550bn-306-7zp2a19-ce0-cernyj/,2026-11-22
-accountant,Case,Deepcool CC560 V2 ATX black,29990,https://www.dns-shop.kz/product/f29378c5fbb8d9cb/korpus-deepcool-cc560-limited-v2-r-cc560-bknaa0-g-2-cernyj/,2026-11-22
-accountant,OS,Microsoft Windows 11 Pro 64-bit Russian OEI KZ only (DSP),78100,https://notik.kz/shop/software/operacionnaya-sistema-microsoft-windows-11-pro/,2026-11-22
-accountant,Monitor,LG 24MR400-B 24in IPS 1080p 100Hz,52200,https://www.dns-shop.kz/product/4a4cb1621e5fd9cb/238-monitor-lg-24ms500-b-cernyj/,2026-11-22
-accountant,TOTAL,,562148,,2026-11-22
-sales,CPU,AMD Ryzen 5 7600 BOX (AM5 6C/12T with cooler),99927,https://www.dns-shop.kz/product/0c29f0e7e957ed20/processor-amd-ryzen-5-7600-box/,2026-11-22
-sales,Motherboard,MSI PRO B650M-P (AM5 B650 mATX 4xDDR5 2xM.2),59366,https://www.dns-shop.kz/product/2a63664ce255ed20/materinskaa-plata-msi-pro-b650m-p/,2026-11-22
-sales,Memory,Kingston FURY Beast Black KF560C36BBE2K2-32 DDR5-6000 2x16GB,230168,https://www.dns-shop.kz/product/d9113753ecf0d9cb/operativnaa-pamat-ddr5-udimm-kingston-fury-beast-black-rgb-kf560c36bbe2ak2-32-32-gb/,2026-11-22
-sales,SSD,MSI SPATIUM M470 PRO 1TB M.2 2280 NVMe PCIe 4.0,78950,https://www.msi.com/Storage/SPATIUM-M470-PRO-PCIe-4.0-NVMe-M.2/Specification,2026-11-22
-sales,PSU,MSI MAG A550BN 550W 80+ Bronze,22545,https://www.dns-shop.kz/product/5af90f62ee812ff2/blok-pitania-msi-mag-a550bn-306-7zp2a19-ce0-cernyj,2026-11-22
-sales,Case,Deepcool CC560 V2 ATX black,29990,https://www.dns-shop.kz/product/f29378c5fbb8d9cb/korpus-deepcool-cc560-limited-v2-r-cc560-bknaa0-g-2-cernyj/,2026-11-22
-sales,OS,Microsoft Windows 11 Pro 64-bit Russian OEI KZ only (DSP),78100,https://notik.kz/shop/software/operacionnaya-sistema-microsoft-windows-11-pro/,2026-11-22
-sales,Monitor,Lenovo L24-4e 23.8in 1080p 100Hz,46825,https://www.dns-shop.kz/product/9873a824914bd582/238-monitor-lenovo-l24-4c-seryj/,2026-11-22
-sales,TOTAL,,646051,,2026-11-22
-webdev,CPU,AMD Ryzen 5 7600 BOX (AM5 6C/12T with cooler),99927,https://www.dns-shop.kz/product/0c29f0e7e957ed20/processor-amd-ryzen-5-7600-box/,2026-11-22
-webdev,Motherboard,MSI PRO B650M-P (AM5 B650 mATX 4xDDR5 2xM.2),59366,https://www.dns-shop.kz/product/2a63664ce255ed20/materinskaa-plata-msi-pro-b650m-p/,2026-11-22
-webdev,Memory,Kingston FURY Beast Black KF560C36BBE2K2-32 DDR5-6000 2x16GB,230168,https://www.dns-shop.kz/product/d9113753ecf0d9cb/operativnaa-pamat-ddr5-udimm-kingston-fury-beast-black-rgb-kf560c36bbe2ak2-32-32-gb/,2026-11-22
-webdev,SSD,MSI SPATIUM M470 PRO 1TB M.2 2280 NVMe PCIe 4.0,78950,https://www.msi.com/Storage/SPATIUM-M470-PRO-PCIe-4.0-NVMe-M.2/Specification,2026-11-22
-webdev,PSU,MSI MAG A550BN 550W 80+ Bronze,22545,https://www.dns-shop.kz/product/5af90f62ee812ff2/blok-pitania-msi-mag-a550bn-306-7zp2a19-ce0-cernyj,2026-11-22
-webdev,Case,Deepcool CC560 V2 ATX black,29990,https://www.dns-shop.kz/product/f29378c5fbb8d9cb/korpus-deepcool-cc560-limited-v2-r-cc560-bknaa0-g-2-cernyj/,2026-11-22
-webdev,OS,Ubuntu Desktop LTS (free open-source licence),0,https://ubuntu.com/download/desktop,2026-11-22
-webdev,Monitor,Dahua LM27-C301B 27in IPS 1440p(not available in dns so found analogue),69890,https://www.dns-shop.kz/product/72f8fe7c1682d9cb/27-monitor-aoc-q27b3cf2-cernyj/,2026-11-22
-webdev,TOTAL,,601146,,2026-11-22
-designer,CPU,AMD Ryzen 5 7600 BOX (AM5 6C/12T with cooler),99927,https://www.dns-shop.kz/product/0c29f0e7e957ed20/processor-amd-ryzen-5-7600-box/,2026-11-22
-designer,Motherboard,MSI PRO B650M-P (AM5 B650 mATX 4xDDR5 2xM.2),59366,https://www.dns-shop.kz/product/2a63664ce255ed20/materinskaa-plata-msi-pro-b650m-p/,2026-11-22
-designer,Memory,Kingston FURY Beast Black KF560C36BBE2K2-32 DDR5-6000 2x16GB,230168,https://www.dns-shop.kz/product/d9113753ecf0d9cb/operativnaa-pamat-ddr5-udimm-kingston-fury-beast-black-rgb-kf560c36bbe2ak2-32-32-gb/,2026-11-22
-designer,SSD,Samsung 990 1TB M.2 2280 NVMe PCIe 4.0 (MZ-V9V1T0BW),154404,https://www.samsung.com/sg/memory-storage/nvme-ssd/990-1tb-nvme-pcie-gen-4-mz-v9v1t0bw/,2026-11-22
-designer,PSU,MSI MAG A550BN 550W 80+ Bronze,22545,https://www.dns-shop.kz/product/5af90f62ee812ff2/blok-pitania-msi-mag-a550bn-306-7zp2a19-ce0-cernyj,2026-11-22
-designer,Case,Deepcool CC560 V2 ATX black,29990,https://www.dns-shop.kz/product/f29378c5fbb8d9cb/korpus-deepcool-cc560-limited-v2-r-cc560-bknaa0-g-2-cernyj/,2026-11-22
-designer,OS,Microsoft Windows 11 Pro 64-bit Russian OEI KZ only (DSP),78100,https://notik.kz/shop/software/operacionnaya-sistema-microsoft-windows-11-pro/,2026-11-22
-designer,Monitor,LG 27BA54QB 27in IPS 1440p sRGB 100%,96448,https://www.dns-shop.kz/product/bcab6d51a564d9cb/27-monitor-lg-27ba45qb-b-cernyj/,2026-11-22
-designer,TOTAL,,~771634,,2026-11-22
-ALL,GRAND TOTAL,,~2580979,,2026-11-22
+Role,Category,Component,Model,Price_KZT,Vendor_URL,Quote_Date,Notes
+Accountant,CPU,Processor,AMD Ryzen 5 7600 BOX,110750,https://www.dns-shop.kz/product/0c29f0e7e957ed20/processor-amd-ryzen-5-7600-box/,2026-11-22,Includes stock cooler and integrated graphics
+Accountant,Motherboard,Motherboard,MSI PRO B650M-P,70960,https://www.dns-shop.kz/product/2a63664ce255ed20/materinskaa-plata-msi-pro-b650m-p/,2026-11-22,AM5 Micro-ATX 4xDDR5 slots
+Accountant,RAM,Memory,Kingston FURY Beast Black 16GB (2x8GB) DDR5-5600,165390,https://www.dns-shop.kz/product/e37f7639fb37ed20/operativnaa-pamat-ddr5-udimm-kingston-fury-beast-black-kf556c40bbk2-16-16-gb/,2026-11-22,2 free slots left for future upgrade
+Accountant,Storage,SSD,MSI SPATIUM M470 PRO 1TB NVMe,95180,https://www.dns-shop.kz/product/c3c760e2ab71a735/1000-gb-m2-nvme-nakopitel-msi-spatium-m470-pro-s78-440l0j0-p83/,2026-11-22,PCIe 4.0 M.2 NVMe
+Accountant,PSU,Power Supply,MSI MAG A550BN 550W,25460,https://www.dns-shop.kz/product/5af90f62ee812ff2/blok-pitania-msi-mag-a550bn-306-7zp2a19-ce0-cernyj/,2026-11-22,80 PLUS Bronze
+Accountant,Case,Case,DEEPCOOL CC560 Limited V2 Black,25520,https://www.dns-shop.kz/product/f29378c5fbb8d9cb/korpus-deepcool-cc560-limited-v2-r-cc560-bknaa0-g-2-cernyj/,2026-11-22,Mid-Tower good airflow
+Accountant,OS,Operating System,Windows 11 Pro OEM/DSP,79990,https://www.dns-shop.kz/,2026-11-22,Required for local accounting software
+Accountant,Monitor,Monitor,LG 24MS500-B 23.8" IPS,52960,https://www.dns-shop.kz/product/4a4cb1621e5fd9cb/238-monitor-lg-24ms500-b-cernyj/,2026-11-22,1080p 100Hz IPS for spreadsheets
+Sales manager,CPU,Processor,AMD Ryzen 5 7600 BOX,110750,https://www.dns-shop.kz/product/0c29f0e7e957ed20/processor-amd-ryzen-5-7600-box/,2026-11-22,Shared platform
+Sales manager,Motherboard,Motherboard,MSI PRO B650M-P,70960,https://www.dns-shop.kz/product/2a63664ce255ed20/materinskaa-plata-msi-pro-b650m-p/,2026-11-22,Shared platform
+Sales manager,RAM,Memory,Kingston FURY Beast Black RGB 32GB (2x16GB) DDR5-6000,331850,https://www.dns-shop.kz/product/d9113753ecf0d9cb/operativnaa-pamat-ddr5-udimm-kingston-fury-beast-black-rgb-kf560c36bbe2ak2-32-32-gb/,2026-11-22,32GB for heavy browser tabs + video calls
+Sales manager,Storage,SSD,MSI SPATIUM M470 PRO 1TB NVMe,95180,https://www.dns-shop.kz/product/c3c760e2ab71a735/1000-gb-m2-nvme-nakopitel-msi-spatium-m470-pro-s78-440l0j0-p83/,2026-11-22,PCIe 4.0 M.2 NVMe
+Sales manager,PSU,Power Supply,MSI MAG A550BN 550W,25460,https://www.dns-shop.kz/product/5af90f62ee812ff2/blok-pitania-msi-mag-a550bn-306-7zp2a19-ce0-cernyj/,2026-11-22,80 PLUS Bronze
+Sales manager,Case,Case,DEEPCOOL CC560 Limited V2 Black,25520,https://www.dns-shop.kz/product/f29378c5fbb8d9cb/korpus-deepcool-cc560-limited-v2-r-cc560-bknaa0-g-2-cernyj/,2026-11-22,Mid-Tower
+Sales manager,OS,Operating System,Windows 11 Pro OEM/DSP,79990,https://www.dns-shop.kz/,2026-11-22,Corporate Windows environment
+Sales manager,Monitor,Monitor,Lenovo 24" IPS FHD,59990,https://www.dns-shop.kz/,2026-11-22,1080p IPS display
+Web developer,CPU,Processor,AMD Ryzen 5 7600 BOX,110750,https://www.dns-shop.kz/product/0c29f0e7e957ed20/processor-amd-ryzen-5-7600-box/,2026-11-22,6 cores / 12 threads for containers
+Web developer,Motherboard,Motherboard,MSI PRO B650M-P,70960,https://www.dns-shop.kz/product/2a63664ce255ed20/materinskaa-plata-msi-pro-b650m-p/,2026-11-22,Shared platform
+Web developer,RAM,Memory,Kingston FURY Beast Black RGB 32GB (2x16GB) DDR5-6000,331850,https://www.dns-shop.kz/product/d9113753ecf0d9cb/operativnaa-pamat-ddr5-udimm-kingston-fury-beast-black-rgb-kf560c36bbe2ak2-32-32-gb/,2026-11-22,32GB for Docker/DBs/VMs
+Web developer,Storage,SSD,MSI SPATIUM M470 PRO 1TB NVMe,95180,https://www.dns-shop.kz/product/c3c760e2ab71a735/1000-gb-m2-nvme-nakopitel-msi-spatium-m470-pro-s78-440l0j0-p83/,2026-11-22,Fast NVMe for builds
+Web developer,PSU,Power Supply,MSI MAG A550BN 550W,25460,https://www.dns-shop.kz/product/5af90f62ee812ff2/blok-pitania-msi-mag-a550bn-306-7zp2a19-ce0-cernyj/,2026-11-22,80 PLUS Bronze
+Web developer,Case,Case,DEEPCOOL CC560 Limited V2 Black,25520,https://www.dns-shop.kz/product/f29378c5fbb8d9cb/korpus-deepcool-cc560-limited-v2-r-cc560-bknaa0-g-2-cernyj/,2026-11-22,Mid-Tower
+Web developer,OS,Operating System,Ubuntu 24.04 LTS,0,https://ubuntu.com/,2026-11-22,Free open-source OS native for dev stack
+Web developer,Monitor,Monitor,Dahua 27" 1440p IPS,89990,https://www.dns-shop.kz/,2026-11-22,QHD resolution for code readability
+Designer,CPU,Processor,AMD Ryzen 5 7600 BOX,110750,https://www.dns-shop.kz/product/0c29f0e7e957ed20/processor-amd-ryzen-5-7600-box/,2026-11-22,Shared platform
+Designer,Motherboard,Motherboard,MSI PRO B650M-P,70960,https://www.dns-shop.kz/product/2a63664ce255ed20/materinskaa-plata-msi-pro-b650m-p/,2026-11-22,Shared platform
+Designer,RAM,Memory,Kingston FURY Beast Black RGB 32GB (2x16GB) DDR5-6000,331850,https://www.dns-shop.kz/product/d9113753ecf0d9cb/operativnaa-pamat-ddr5-udimm-kingston-fury-beast-black-rgb-kf560c36bbe2ak2-32-32-gb/,2026-11-22,32GB for large PSD/Figma files
+Designer,Storage,SSD,Samsung 990 PRO 1TB NVMe,119990,https://www.dns-shop.kz/,2026-11-22,High sustained speed for scratch disk
+Designer,PSU,Power Supply,MSI MAG A550BN 550W,25460,https://www.dns-shop.kz/product/5af90f62ee812ff2/blok-pitania-msi-mag-a550bn-306-7zp2a19-ce0-cernyj/,2026-11-22,Enough headroom for future mid-range GPU
+Designer,Case,Case,DEEPCOOL CC560 Limited V2 Black,25520,https://www.dns-shop.kz/product/f29378c5fbb8d9cb/korpus-deepcool-cc560-limited-v2-r-cc560-bknaa0-g-2-cernyj/,2026-11-22,Mid-Tower
+Designer,OS,Operating System,Windows 11 Pro OEM/DSP,79990,https://www.dns-shop.kz/,2026-11-22,Adobe Creative Cloud compatibility
+Designer,Monitor,Monitor,LG 27" 1440p IPS 100% sRGB,139990,https://www.dns-shop.kz/,2026-11-22,Colour-accurate QHD monitor

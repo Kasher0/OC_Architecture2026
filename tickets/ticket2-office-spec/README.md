@@ -40,13 +40,13 @@ Full reasoning per build: [builds.md](builds.md). Every part with price, vendor 
 
 | Role | Memory | SSD (1 TB) | OS | Monitor | Total, KZT |
 |---|---|---|---|---|---|
-| Accountant | 16 GB | MSI SPATIUM M470 PRO | Windows 11 Pro | LG 24" IPS | 562,148 |
-| Sales manager | 32 GB | MSI SPATIUM M470 PRO | Windows 11 Pro | Lenovo 24" | 646,051 |
-| Web developer | 32 GB | MSI SPATIUM M470 PRO | Ubuntu LTS | Dahua 27" 1440p | 601,146 |
-| Designer | 32 GB | Samsung 990 | Windows 11 Pro | LG 27" 1440p, sRGB 100% | ~771,634 |
-| **Grand total** | | | | | **~2,580,979** |
+| Accountant | 16 GB | MSI SPATIUM M470 PRO | Windows 11 Pro | LG 24" IPS | 626,210 |
+| Sales manager | 32 GB | MSI SPATIUM M470 PRO | Windows 11 Pro | Lenovo 24" | 799,700 |
+| Web developer | 32 GB | MSI SPATIUM M470 PRO | Ubuntu LTS | Dahua 27" 1440p | 749,710 |
+| Designer | 32 GB | Samsung 990 | Windows 11 Pro | LG 27" 1440p, sRGB 100% | ~904,510 |
+| **Grand total** | | | | | **~3,080,130** |
 
-The grand total is 419,021 KZT below the 3,000,000 limit. I kept that gap for the things the request forgot (keyboards, mice, cables, a UPS, a backup drive) and for price changes, because memory and SSD prices in Kazakhstan move within a month.
+The grand total is 80,130 KZT above the 3,000,000 limit due to sharp DDR5 memory price increases in Kazakhstan, leaving no buffer for the things the request forgot (keyboards, mice, cables, a UPS, a backup drive).
 
 ### The director's three questions
 
@@ -63,7 +63,7 @@ The designer's machine: I would add a discrete graphics card. The board, the cas
 | Designer | ПК ASUS V500 VM501MH-0R72600250 [90PF0642-M009T0] | Ryzen 7 260 (8 cores) / 32 GB DDR5 / 1 TB M.2 PCIe SSD / integrated graphics / 180 W PSU / no monitor | 626,090 (cash/card; 659,090 installments) | https://www.dns-shop.kz/search/?q=%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9+%D0%B1%D0%BB%D0%BE%D0%BA&category=17a8932c16404e77&stock=now-today-tomorrow-later&f[1hd]=1qx&f[1go]=cr&f[1he]=1qhl&f[1gt]=d5 | 2026-11-22 |
 
 Gains: one warranty and one support contact, no assembly or testing time, the operating system is already installed and licensed. Losses: choice of parts, an upgrade path on models with proprietary parts, and the ability to put the money exactly on each person's bottleneck.
-<!-- EDIT: after filling the table, add the price difference vs my builds (2,500,749 KZT) -->
+<!-- EDIT: after filling the table, add the price difference vs my builds (3,080,130 KZT) -->
 
 **3. One of these four people will complain about performance within a month. Which one, and about what?**
 The designer, about slowness in GPU-accelerated filters and with very large files, because I kept the integrated graphics to stay on a sensible monitor and 32 GB of memory. The second most likely is the sales manager, about memory, if the number of CRM tabs grows beyond what 32 GB comfortably holds with video calls.
