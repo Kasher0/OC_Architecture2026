@@ -40,19 +40,18 @@ Full reasoning per build: [builds.md](builds.md). Every part with price, vendor 
 
 | Role | Memory | SSD (1 TB) | OS | Monitor | Total, KZT |
 |---|---|---|---|---|---|
-| Accountant | 16 GB | MSI SPATIUM M470 PRO | Windows 11 Pro | LG 24" IPS | 551,838 |
-| Sales manager | 32 GB | MSI SPATIUM M470 PRO | Windows 11 Pro | Lenovo 24" | 635,741 |
-| Web developer | 32 GB | MSI SPATIUM M470 PRO | Ubuntu LTS | Dahua 27" 1440p | 590,836 |
-| Designer | 32 GB | Samsung 990 | Windows 11 Pro | LG 27" 1440p, sRGB 100% | 722,334 |
-| **Grand total** | | | | | **2,500,749** |
+| Accountant | 16 GB | MSI SPATIUM M470 PRO | Windows 11 Pro | LG 24" IPS | 562,148 |
+| Sales manager | 32 GB | MSI SPATIUM M470 PRO | Windows 11 Pro | Lenovo 24" | 646,051 |
+| Web developer | 32 GB | MSI SPATIUM M470 PRO | Ubuntu LTS | Dahua 27" 1440p | 601,146 |
+| Designer | 32 GB | Samsung 990 | Windows 11 Pro | LG 27" 1440p, sRGB 100% | ~771,634 |
+| **Grand total** | | | | | **~2,580,979** |
 
-The grand total is 499,251 KZT below the 3,000,000 limit. I kept that gap for the things the request forgot (keyboards, mice, cables, a UPS, a backup drive) and for price changes, because memory and SSD prices in Kazakhstan move within a month.
+The grand total is 419,021 KZT below the 3,000,000 limit. I kept that gap for the things the request forgot (keyboards, mice, cables, a UPS, a backup drive) and for price changes, because memory and SSD prices in Kazakhstan move within a month.
 
 ### The director's three questions
 
 **1. Which of the four machines will you upgrade first, eighteen months from now, and why?**
 The designer's machine: I would add a discrete graphics card. The board, the case and the 550 W power supply can already take one, and the integrated graphics is the one weakness I knowingly accepted in that build.
-<!-- EDIT: confirm or change; name the part and the reason -->
 
 **2. Price the same four as pre-built machines from a vendor. What does the company gain and lose by not building them?**
 
