@@ -2,10 +2,7 @@
 
 | Build | Share link | What it proves |
 |---|---|---|
-| Accountant | TODO | AM5 socket match, DDR5, M.2, estimated wattage vs 550 W PSU |
-| Sales | TODO | same checks |
-| Web developer | TODO | same checks |
-| Designer | TODO | same checks |
-
-Parts to enter: Ryzen 5 7600, MSI PRO B650M-P, Kingston FURY Beast DDR5 (accountant: 2x8 GB, others: KF560C36BBE2K2-32), MSI SPATIUM M470 PRO 1 TB (designer: Samsung 990 1 TB), MSI MAG A550BN, Deepcool CC560 V2, monitor.
-If a part is missing in PCPartPicker, pick the nearest equivalent and write that here.
+| Accountant | https://pcpartpicker.com/list/jdbxV4 | AM5 socket match, DDR5, M.2, estimated wattage vs 550 W PSU |
+| Sales | Monitor (Lenovo L24-4e) is not in the PCPartPicker database, so it is not in the list. It does not affect socket, memory, M.2 or power compatibility. Its price is proven by the vendor screenshot sales-monitor.png. Connector check: the monitor's inputs match the board's video outputs (HDMI/DP). https://pcpartpicker.com/list/f7wKNp | same checks |
+| Web developer | Monitor (Dahua LM27-C301B) is not in the PCPartPicker database, so it is not in the list. It does not affect socket, memory, M.2 or power compatibility. Its price is proven by the vendor screenshot webdev-monitor.png. Connector check: the monitor's inputs match the board's video outputs (HDMI/DP) https://pcpartpicker.com/list/XsKdJw | same checks |
+| Designer | Monitor (LG 27BA54QB) is not in the PCPartPicker database, so it is not in the list. It does not affect socket, memory, M.2 or power compatibility. Its price is proven by the vendor screenshot designer-monitor.png. Connector check: the monitor's inputs match the board's video outputs (HDMI/DP) https://pcpartpicker.com/list/nrGNBv | same checks |
